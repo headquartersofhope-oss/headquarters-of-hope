@@ -117,9 +117,17 @@ export default function HipaaNotice() {
         </p>
         <div className="space-y-2 text-sm text-foreground">
           <p><strong>File with HOH:</strong></p>
-          <p className="pl-4">Headquarters of Hope Foundation, Inc.<br />Attn: Privacy Officer<br />509 Sandstone Trail, Buda, TX 78610<br />Email: <a href="mailto:info@headquartersofhope.org" className="text-secondary underline">info@headquartersofhope.org</a><br />Phone: 737-255-8355</p>
+          <p className="pl-4">
+            Headquarters of Hope Foundation, Inc. &mdash; Attn: Privacy Officer<br />
+            Phone: <a href="tel:7372558355" className="text-secondary underline">737-255-8355</a><br />
+            Email: <a href="mailto:info@headquartersofhope.org" className="text-secondary underline">info@headquartersofhope.org</a>
+          </p>
           <p className="mt-3"><strong>File with HHS Office for Civil Rights:</strong></p>
-          <p className="pl-4">U.S. Department of Health and Human Services<br />200 Independence Avenue, S.W., Washington, D.C. 20201<br /><a href="https://www.hhs.gov/ocr/privacy/hipaa/complaints/" target="_blank" rel="noreferrer" className="text-secondary underline">www.hhs.gov/ocr/privacy/hipaa/complaints/</a><br />Toll-Free: 1-800-368-1019</p>
+          <p className="pl-4">
+            U.S. Department of Health and Human Services<br />
+            <a href="https://www.hhs.gov/ocr/privacy/hipaa/complaints/" target="_blank" rel="noreferrer" className="text-secondary underline">www.hhs.gov/ocr/privacy/hipaa/complaints/</a><br />
+            Toll-Free: 1-800-368-1019
+          </p>
         </div>
       </section>
 
@@ -128,7 +136,6 @@ export default function HipaaNotice() {
         <div className="text-sm text-foreground space-y-1">
           <p><strong>Headquarters of Hope Foundation, Inc.</strong></p>
           <p>Privacy Officer: Rodney E. Jones, Executive Director</p>
-          <p>509 Sandstone Trail, Buda, TX 78610</p>
           <p>Phone: <a href="tel:7372558355" className="text-secondary underline">737-255-8355</a></p>
           <p>Email: <a href="mailto:info@headquartersofhope.org" className="text-secondary underline">info@headquartersofhope.org</a></p>
           <p>EIN: 39-3366072 | Texas 501(c)(3) Public Charity</p>

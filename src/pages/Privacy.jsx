@@ -1,13 +1,21 @@
+import { Link } from 'react-router-dom';
+
 export default function Privacy() {
   return (
     <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
       <h1 className="font-heading font-bold text-3xl text-primary mb-2">Privacy Policy</h1>
       <p className="text-sm text-muted-foreground mb-10">Last updated: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
 
+      <div className="bg-primary/5 border-l-4 border-secondary px-5 py-4 rounded-r-lg mb-8">
+        <p className="text-sm text-foreground leading-relaxed">
+          <strong>Notice:</strong> If you are a current or prospective program participant, please also review our <Link to="/hipaa-notice" className="text-secondary underline font-semibold">HIPAA Notice of Privacy Practices</Link>, which describes additional rights and protections for your health and program-related information.
+        </p>
+      </div>
+
       <section className="mb-8">
         <h2 className="font-heading font-semibold text-xl text-primary mb-3">Overview</h2>
         <p className="text-sm text-foreground leading-relaxed">
-          Headquarters of Hope Foundation, Inc. (&ldquo;HOH&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or &ldquo;our&rdquo;) is committed to protecting your privacy. This Privacy Policy describes how we collect, use, and share information about you when you use our website, programs, and services.
+          Headquarters of Hope Foundation, Inc. (&ldquo;HOH&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or &ldquo;our&rdquo;) is committed to protecting your privacy. This Privacy Policy describes how we collect, use, and share information about you when you use our website, programs, and services. EIN: 39-3366072.
         </p>
       </section>
 
@@ -38,9 +46,7 @@ export default function Privacy() {
 
       <section className="mb-8">
         <h2 className="font-heading font-semibold text-xl text-primary mb-3">How We Share Your Information</h2>
-        <p className="text-sm text-foreground leading-relaxed mb-3">
-          We do not sell your personal information. We may share information with:
-        </p>
+        <p className="text-sm text-foreground leading-relaxed mb-3">We do not sell your personal information. We may share information with:</p>
         <ul className="space-y-2 text-sm text-foreground leading-relaxed mb-4">
           <li className="pl-4 border-l-2 border-secondary"><strong>Service Providers:</strong> Vendors and partners who assist us in operating our website and delivering our programs, bound by confidentiality agreements.</li>
           <li className="pl-4 border-l-2 border-secondary"><strong>Partner Organizations:</strong> Referral partners, courts, and agencies involved in your program participation, with your consent where required.</li>
@@ -48,6 +54,13 @@ export default function Privacy() {
         </ul>
         <p className="text-sm text-foreground leading-relaxed font-medium bg-muted px-4 py-3 rounded-lg border-l-4 border-secondary">
           All the above categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties.
+        </p>
+      </section>
+
+      <section className="mb-8">
+        <h2 className="font-heading font-semibold text-xl text-primary mb-3">42 CFR Part 2 — Substance Use Disorder Records</h2>
+        <p className="text-sm text-foreground leading-relaxed">
+          Federal law (42 CFR Part 2) provides special confidentiality protections for substance use disorder records. Any substance use or treatment information you share with HOH is protected and cannot be disclosed without your written consent except in limited circumstances permitted by law. For more information, see our <Link to="/hipaa-notice" className="text-secondary underline">Notice of Privacy Practices</Link>.
         </p>
       </section>
 
@@ -65,20 +78,27 @@ export default function Privacy() {
           <li className="pl-4 border-l-2 border-secondary">Access, correct, or request deletion of your personal information.</li>
           <li className="pl-4 border-l-2 border-secondary">Opt out of marketing and SMS communications at any time by texting STOP or contacting us directly.</li>
           <li className="pl-4 border-l-2 border-secondary">Request information about what personal data we hold about you.</li>
+          <li className="pl-4 border-l-2 border-secondary">File a complaint with the HHS Office for Civil Rights if you believe your HIPAA rights have been violated.</li>
+        </ul>
+      </section>
+
+      <section className="mb-8">
+        <h2 className="font-heading font-semibold text-xl text-primary mb-3">Related Policies</h2>
+        <ul className="space-y-2 text-sm">
+          <li><Link to="/hipaa-notice" className="text-secondary underline">HIPAA Notice of Privacy Practices</Link> — Rights and protections for program participants</li>
+          <li><Link to="/sms-terms" className="text-secondary underline">SMS Terms & Conditions</Link> — Text messaging opt-in and opt-out information</li>
         </ul>
       </section>
 
       <section className="mb-8">
         <h2 className="font-heading font-semibold text-xl text-primary mb-3">Contact Us</h2>
-        <p className="text-sm text-foreground leading-relaxed">
-          If you have questions about this Privacy Policy or how we handle your information, please contact us:
-        </p>
+        <p className="text-sm text-foreground leading-relaxed">If you have questions about this Privacy Policy or how we handle your information, please contact us:</p>
         <div className="mt-4 text-sm text-foreground space-y-1">
           <p><strong>Headquarters of Hope Foundation, Inc.</strong></p>
           <p>509 Sandstone Trail, Buda, TX 78610</p>
           <p>Email: <a href="mailto:info@headquartersofhope.org" className="text-secondary underline hover:no-underline">info@headquartersofhope.org</a></p>
           <p>Phone: <a href="tel:7372558355" className="text-secondary underline hover:no-underline">737-255-8355</a></p>
-          <p>EIN: 39-3366072</p>
+          <p>EIN: 39-3366072 | Texas 501(c)(3) Public Charity</p>
         </div>
       </section>
     </div>

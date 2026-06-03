@@ -23,16 +23,12 @@ import Funding from './pages/Funding';
 import ResourceProvider from './pages/ResourceProvider';
 import SMSTerms from './pages/SMSTerms';
 import Privacy from './pages/Privacy';
+import HipaaNotice from './pages/HipaaNotice';
 import Volunteer from './pages/Volunteer';
 import Events from './pages/Events';
 import Merch from './pages/Merch';
 import AdminDashboard from './pages/admin/AdminDashboard';
 
-/**
- * AdminRoute — the ONLY route that waits for auth to load.
- * Public routes render immediately so Google can index them.
- * Showing a spinner on public pages causes Google Soft 404.
- */
 const AdminRoute = () => {
   const { isLoadingAuth, isLoadingPublicSettings, authError, navigateToLogin } = useAuth();
 
@@ -62,11 +58,6 @@ function App() {
       <QueryClientProvider client={queryClientInstance}>
         <Router>
           <Routes>
-            {/*
-              Public routes — render immediately, NO auth loading gate.
-              These are the pages Google indexes. They must have real content
-              on first render or Google marks them as Soft 404.
-            */}
             <Route element={<PublicLayout />}>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
@@ -88,12 +79,10 @@ function App() {
               <Route path="/merch" element={<Merch />} />
               <Route path="/sms-terms" element={<SMSTerms />} />
               <Route path="/privacy" element={<Privacy />} />
+              <Route path="/hipaa-notice" element={<HipaaNotice />} />
             </Route>
 
-            {/* Admin — auth-gated, loading spinner is appropriate here */}
             <Route path="/admin" element={<AdminRoute />} />
-
-            {/* 404 */}
             <Route path="*" element={<PageNotFound />} />
           </Routes>
         </Router>

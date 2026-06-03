@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 import PageHero from '../components/shared/PageHero';
 import SectionHeading from '../components/shared/SectionHeading';
 
-const BONFIRE_STORE = 'https://www.bonfire.com/store/headquarters-of-hope-foundation-inc/';
+const BONFIRE_STORE = 'https://www.bonfire.com/store/headquarters-of-hope-foundation/';
 
 const hashtags = [
   '#HopeFestAustin2026','#FreedomRising','#HeadquartersOfHope',

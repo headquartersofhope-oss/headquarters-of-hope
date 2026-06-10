@@ -1,0 +1,8 @@
+# Explicit 301 redirects — processed before the SPA catch-all
+/Home   /   301!
+/home   /   301!
+/Index  /   301!
+/index.html /   301!
+
+# SPA catch-all — must be last
+/*  /index.html  200

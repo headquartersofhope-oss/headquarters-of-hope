@@ -3,133 +3,160 @@
 
   <!-- Homepage -->
   <url>
-    <loc>https://www.headquartersofhope.org/</loc>
+    <loc>https://headquartersofhope.org/</loc>
+    <lastmod>2026-06-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <!-- About -->
   <url>
-    <loc>https://www.headquartersofhope.org/about</loc>
+    <loc>https://headquartersofhope.org/about</loc>
+    <lastmod>2026-06-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <!-- Programs -->
   <url>
-    <loc>https://www.headquartersofhope.org/programs</loc>
+    <loc>https://headquartersofhope.org/programs</loc>
+    <lastmod>2026-06-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <!-- Get Help -->
   <url>
-    <loc>https://www.headquartersofhope.org/get-help</loc>
+    <loc>https://headquartersofhope.org/get-help</loc>
+    <lastmod>2026-06-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <!-- Job Readiness -->
   <url>
-    <loc>https://www.headquartersofhope.org/job-readiness</loc>
+    <loc>https://headquartersofhope.org/job-readiness</loc>
+    <lastmod>2026-06-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Housing Support -->
   <url>
-    <loc>https://www.headquartersofhope.org/housing-support</loc>
+    <loc>https://headquartersofhope.org/housing-support</loc>
+    <lastmod>2026-06-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Transportation -->
   <url>
-    <loc>https://www.headquartersofhope.org/transportation</loc>
+    <loc>https://headquartersofhope.org/transportation</loc>
+    <lastmod>2026-06-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Success Pathways -->
   <url>
-    <loc>https://www.headquartersofhope.org/success-pathways</loc>
+    <loc>https://headquartersofhope.org/success-pathways</loc>
+    <lastmod>2026-06-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Partners -->
   <url>
-    <loc>https://www.headquartersofhope.org/partners</loc>
+    <loc>https://headquartersofhope.org/partners</loc>
+    <lastmod>2026-06-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- Employers -->
   <url>
-    <loc>https://www.headquartersofhope.org/employers</loc>
+    <loc>https://headquartersofhope.org/employers</loc>
+    <lastmod>2026-06-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- Volunteer -->
   <url>
-    <loc>https://www.headquartersofhope.org/volunteer</loc>
+    <loc>https://headquartersofhope.org/volunteer</loc>
+    <lastmod>2026-06-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- Support / Donate -->
   <url>
-    <loc>https://www.headquartersofhope.org/support</loc>
+    <loc>https://headquartersofhope.org/support</loc>
+    <lastmod>2026-06-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- Contact -->
   <url>
-    <loc>https://www.headquartersofhope.org/contact</loc>
+    <loc>https://headquartersofhope.org/contact</loc>
+    <lastmod>2026-06-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- Resource Provider -->
   <url>
-    <loc>https://www.headquartersofhope.org/resource-provider</loc>
+    <loc>https://headquartersofhope.org/resource-provider</loc>
+    <lastmod>2026-06-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <!-- Events -->
   <url>
-    <loc>https://www.headquartersofhope.org/events</loc>
+    <loc>https://headquartersofhope.org/events</loc>
+    <lastmod>2026-06-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <!-- Merch -->
   <url>
-    <loc>https://www.headquartersofhope.org/merch</loc>
+    <loc>https://headquartersofhope.org/merch</loc>
+    <lastmod>2026-06-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <!-- FAQ -->
   <url>
-    <loc>https://www.headquartersofhope.org/faq</loc>
+    <loc>https://headquartersofhope.org/faq</loc>
+    <lastmod>2026-06-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <!-- Privacy Policy -->
   <url>
-    <loc>https://www.headquartersofhope.org/privacy</loc>
+    <loc>https://headquartersofhope.org/privacy</loc>
+    <lastmod>2026-06-08</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
 
   <!-- SMS Terms -->
   <url>
-    <loc>https://www.headquartersofhope.org/sms-terms</loc>
+    <loc>https://headquartersofhope.org/sms-terms</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- HIPAA Notice -->
+  <url>
+    <loc>https://headquartersofhope.org/hipaa-notice</loc>
+    <lastmod>2026-06-08</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>

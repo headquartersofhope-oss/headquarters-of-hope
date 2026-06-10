@@ -2,15 +2,37 @@
   command = "npm run build"
   publish = "dist"
 
+# ─── Canonical redirects — fixes Google Soft 404 on /Home ───────────────────
+# Google crawled /Home (capital H) which does not exist in React Router
+# Redirect all case variations permanently to canonical lowercase routes
+
+[[redirects]]
+  from = "/Home"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/home"
+  to = "/"
+  status = 301
+  force = true
+
+# Redirect www to non-www (canonical domain)
+[[redirects]]
+  from = "https://www.headquartersofhope.org/*"
+  to = "https://headquartersofhope.org/:splat"
+  status = 301
+  force = true
+
 # SPA catch-all redirect — CRITICAL for React Router
-# Without this, Netlify returns a 404 for every route except /
-# Google sees the 404 HTML page (still 200 status) = Soft 404
+# Must come AFTER all specific redirects above
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
 
-# Security headers for all pages
+# ─── Security headers ────────────────────────────────────────────────────────
 [[headers]]
   for = "/*"
   [headers.values]
@@ -19,13 +41,11 @@
     Referrer-Policy = "strict-origin-when-cross-origin"
     Permissions-Policy = "camera=(), microphone=(), geolocation=()"
 
-# Cache static assets aggressively
 [[headers]]
   for = "/assets/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
-# Never cache HTML — always fresh
 [[headers]]
   for = "/*.html"
   [headers.values]
